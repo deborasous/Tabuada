@@ -1,0 +1,97 @@
+.wow {
+    width: 100px;
+}
+
+:root {
+    --Color-text: #3f296e;
+    --color-bg: #f8f6fc;
+    --color-hover: #603fa3;
+    --color-bg-light: #7d7dd7;
+
+    --font-text: 400 max(1rem, 1vw) 'Poppins', sans-serif;
+    --font-title: 600 max(2rem, 2vw) 'Poppins', sans-serif;
+    --font-subtitle: 600 max(1.1rem, 1.1vw) 'Poppins', sans-serif;
+    --font-small: 300 max(0.875rem, 1vw) 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font: var(--font-text);
+    color: var(--Color-text);
+    background: var(--color-bg);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font: var(--font-title);
+    margin-bottom: 2rem;
+}
+
+
+
+input,
+button,
+textarea,
+select {
+    border: none;
+    outline: none !important;
+}
+
+#conteiner {
+    background: var(--color-bg-light);
+    padding: 3rem;
+    width: 29rem;
+    color: var(--color-bg);
+    border-radius: 1rem;
+    margin: 3rem auto
+}
+
+#conteiner #enterNum,
+h2 {
+    font: var(--font-subtitle);
+    margin: 1rem 0 0.5rem 0;
+    color: var(--color-bg);
+}
+
+#conteiner #enterNum label {
+    margin-right: 0.5rem;
+}
+
+#conteiner #enterNum #num {
+    width: 12rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+#conteiner button {
+    color: var(--color-bg);
+    background: var(--Color-text);
+    font: var(--font-text);
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 1rem 0;
+}
+
+#conteiner button:hover {
+    background: var(--color-hover);
+}
+
+#seletion input {
+    margin-right: 2rem;
+}
+
+#seletion #division{
+    margin-right: 0;
+}
+
+select {
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 6px;
+}

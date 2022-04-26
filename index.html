@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,     
+    initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?     
+    family=Poppins:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="tab.js"></script>
+
+  <title>Tabuada</title>
+</head>
+
+<body>
+
+  <div id="conteiner">
+    <header>
+      <h1>Tabuada</h1>
+    </header>
+    <main>
+      <div id="posit">
+        <form action="#" id="mainForm" name="mainForm">
+          <div id="enterNum">
+            <label for="num" name="num">Digite um número:</label>
+            <input type="number" name="num" id="num">
+          </div>
+          <div id="operation">
+            <h2>Selecione o tipo de operação</h2>
+            <div id="seletion">
+              <label for="addition">Soma</label>
+              <input type="radio" name="operat" id="addition" value=1>
+              <label for="subtraction">Subitração</label>
+              <input type="radio" name="operat" id="subtraction" value=2>
+              <label for="multiplication">Multiplicação</label>
+              <input type="radio" name="operat" id="multiplication" value=3>
+              <label for="division">Divisão</label>
+              <input type="radio" name="operat" id="division" value=4>
+            </div>
+            <button type="button" onclick="gerar()">Gerar Tabuada</button>
+          </div>
+          <select name="tabuada" id="tab" size="10">
+            <option>Digite um número</option>
+          </select>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
